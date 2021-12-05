@@ -9,8 +9,6 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("project")
 
 WHITE = 255, 255, 255
-print(sys.argv[0])
-print(pathlib.Path(sys.argv[0]))
 BASE = pathlib.Path(sys.argv[0]).parent
 FPS = 60
 FONT = pygame.font.SysFont("Arial", 30)
